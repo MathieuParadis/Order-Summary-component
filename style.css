@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+h1, p, a {
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 500;
+}
+
+body {
+  background: url(images/pattern-background-desktop.svg) no-repeat; 
+  background-color: hsl(225, 100%, 94%);
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  width: 375px;
+  background-color: white;
+  text-align: center;
+  margin: auto;
+  border-radius: 15px;
+  padding-bottom: 2em;
+}
+
+.img-card {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card-content {
+  margin: auto;
+  width: 75%;
+}
+
+.title {
+  font-weight: 900;
+}
+
+.paragraph {
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+  line-height: 1.6em;
+}
+
+.plan {
+  display: flex;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  align-items: center;
+  padding: 0.5em;
+  justify-content: space-between;
+}
+
+.plan-left-section {
+  display: flex;
+  align-items: center;
+  width: 60%;
+}
+
+.icon-music {
+  width: 45px;
+  height: 45px;
+}
+
+.price {
+  color: hsl(224, 23%, 55%);
+  width: 100%;
+}
+
+.price strong {
+  color: black;
+  font-weight: 700;
+}
+
+
+/* Change price link */
+.change-price {
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+}
+
+.change-price:hover {
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+
+}
+
+
+/* Button */
+button {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  width: 100%;
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+  padding: 1em 0 1em 0;
+  border: none;
+  border-radius: 15px;
+}
+
+button:hover {
+  background-color: hsl(224, 23%, 55%);
+  color: white;
+  width: 100%;
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+  padding: 1em 0 1em 0;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+
+/* Cancel link */
+.cancel {
+  color:hsl(224, 23%, 55%);
+}
+
+.cancel:hover {
+  color: black;
+}
+
+#heart {
+  color: red;
+}
+
